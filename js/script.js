@@ -59,5 +59,3 @@ for (var idx in sortable) {
 secretWord = secretWord.split('_');
 secretWord = secretWord[0];
 $('#secret span').html(secretWord);
-
-console.log('╭∩╮(Ο_Ο)╭∩╮ Nothing to see here... ╭∩╮(Ο_Ο)╭∩╮')
