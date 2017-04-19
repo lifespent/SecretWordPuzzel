@@ -30,11 +30,9 @@ var charWeight = {
 };
 
 for (var idx in charWeight){
-    if (charWeight.hasOwnProperty(idx)) {
-		var regex = new RegExp(idx,"g");
-    	var charCount = (charMap.match(regex) || []).length;
-        charWeight[idx] = charCount;
-    }
+    var regex = new RegExp(idx,"g");
+    var charCount = (charMap.match(regex) || []).length;
+    charWeight[idx] = charCount;
 }
 
 var sortable = [];
